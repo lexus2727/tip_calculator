@@ -1,0 +1,121 @@
+body {
+    font-family: Red Rose;
+    background: #B6092B;
+    
+    /*fallback for old web browsers*/
+    
+    /*Chrome 10-25, Safari 5.1-6*/
+    background: -webkit-linear-gradient(to left, #9a232d, #ff9300, F0710E );
+    
+    /*W3C, IE 10+/ Edge, FireFox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to left, #9a2d23, #ff9300;)
+   }
+  
+  #container {
+    height: 525px;
+    width: 360px;
+    margin: 100px auto;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    background: white;
+    -webkit-border-radius: 20px;
+  }
+  
+  h1 {
+    background:#731204;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+    color:white;
+    margin: 0; 
+    padding: 10px 70px;
+    text-transform: uppercase;
+    font-size: 20px;
+  }
+  
+  p {
+    padding-left: 20px;
+  }
+  
+  form input[type="text"] {
+    width= 90px;
+    
+  }
+  
+  input {
+    padding-left: 20px;
+    
+  }
+  
+  #billamt {
+    font-size: 14px;
+    color: red;
+    width: 60%;
+    padding: 5px 5px 8px 8px;
+  }
+  
+  #billamt:focus {
+    background: #fff;
+    }
+  #peopleamt {
+    width: 60%;
+    margin-left:20px;
+    color:red;
+    padding: 5px 5px 8px 8px;
+    font-size: 14px;
+  }
+  
+  #serviceQual {
+    margin-left:20px;
+    padding: 5px 5px 8px 8px;
+    font-weight: bold;
+  }
+  
+  button {
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin: 30px auto;
+    background: #AD133A;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    font-size: 17px;
+    color: white;
+  }
+  
+  button:hover{
+    background:#846775;
+  }
+  
+  button:active {
+    position: relative;
+    top: 1px;
+  }
+  
+  #totalTip{
+    font-size: 30px;
+    margin-top: 5px;
+    text-align: center;
+  }
+  
+  #totalTip sup{
+    margin: 0px;
+    top: -18px;
+  }
+  
+  #totalTip:before {
+    content: "Tip amount";
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    text-transform: uppercase;
+    }
+  
+  #totalTip small{
+    font-size: 20px;
+    font-weight:bold;
+    display: block;
+  }
+  
+  
+  
