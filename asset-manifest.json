@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.js": "/tip_calculator/static/js/main.239f7820.chunk.js",
+    "main.js.map": "/tip_calculator/static/js/main.239f7820.chunk.js.map",
+    "runtime-main.js": "/tip_calculator/static/js/runtime-main.a7b987a8.js",
+    "runtime-main.js.map": "/tip_calculator/static/js/runtime-main.a7b987a8.js.map",
+    "index.html": "/tip_calculator/index.html",
+    "precache-manifest.315b38352455fadfa2382e35c6dc4e7b.js": "/tip_calculator/precache-manifest.315b38352455fadfa2382e35c6dc4e7b.js",
+    "service-worker.js": "/tip_calculator/service-worker.js"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a7b987a8.js",
+    "static/js/main.239f7820.chunk.js"
+  ]
+}
